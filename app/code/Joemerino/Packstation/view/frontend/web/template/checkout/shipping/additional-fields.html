@@ -1,0 +1,52 @@
+<div data-bind="visible: showPackingstationform()" id="packstation-wrapper" style="display: none;" >
+    <form data-mage-init='{"validation":{}}' id="packingstation-address-form">
+        <div class="row">
+            <div class="field _required" name="packstationShippingMethodFields.packstation_shipping_field[packstation_street_address_1]">
+                <label class="label" for="packstation_street_address_1">
+                    <span translate="'Postnummer'"></span>
+                </label>
+                <div class="control">
+                    <input class="input-text" placeholder="Packstation" id="packstation_street_address_1" name="packstation_shipping_field[packstation_street_address_1]" type="text" data-validate='{"required":true}'/>
+                </div>
+                <div class="field-error"  id="error-packstation_street_address_1" style="display: none;">
+                    <span translate="'Postnummer Is benodigd'"></span>
+                </div>
+            </div>
+            <div class="field _required" name="packstationShippingMethodFields.packstation_shipping_field[packstation_street_address_2]">
+                <label class="label" for="street_address_1">
+                    <span translate="'Packstation Nr'"></span>
+                </label>
+                <div class="control">
+                    <input class="input-text" placeholder="Packstations-Nr.z.B. 153" id="packstation_street_address_2" name="packstation_shipping_field[packstation_street_address_2]" type="text" data-validate='{"required":true}'/>
+                    <div class="field-error"  id="error-packstation_street_address_2" style="display: none;">
+                        <span translate="'Packstation Nr Is benodigd'"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="field _required" name="packstationShippingMethodFields.packstation_shipping_field[packstation_postcode]" >
+                <label class="label" for="packstation_postcode">
+                    <span translate="'Postleitzahl'"></span>
+                </label>
+                <div class="control">
+                    <input class="input-text" placeholder="PLZ der Packstation" id="packstation_postcode" name="packstation_shipping_field[packstation_postcode]" type="text" data-validate='{"required":true}'/>
+                </div>
+                <div class="field-error"  id="error-packstation_postcode" style="display: none;">
+                    <span translate="'Postleitzahl Is benodigd'"></span>
+                </div>
+            </div>
+            <div class="field _required" name="packstationShippingMethodFields.packstation_shipping_field[packstation_city]">
+                <label class="label" for="packstation_city">
+                    <span translate="'Ort/Stadt'"></span>
+                </label>
+                <div class="control">
+                    <input class="input-text" placeholder="Ort der Packstation" id="packstation_city" name="packstation_shipping_field[packstation_city]" type="text" data-validate='{"required":true}' />
+                </div>
+                <div class="field-error"  id="error-packstation_city" style="display: none;">
+                    <span translate="'Ort/Stadt Is benodigd'"></span>
+                </div>
+            </div>
+        </div>
+    </form>    
+</div>

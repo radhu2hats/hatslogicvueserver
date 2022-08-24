@@ -1,0 +1,21 @@
+#packingstation-address-form .field {
+    width: 40%;
+    display: inline-block;
+    left: 10px;
+    padding: 0px 15px;
+}
+#packingstation-address-form .field > .label::after{
+    content: '*';
+    color: #e02b27;
+    font-size: 1.2rem;
+    margin: 0 0 0 5px;
+}
+#packingstation-address-form .field > .label{
+    display: block;
+    width: 100% !important;
+    text-align: left;
+    font-size: 14px !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    color: #555;
+}

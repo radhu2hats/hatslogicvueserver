@@ -1,0 +1,15 @@
+<?xml version="1.0"?><!--
+/**
+ * @package     Hatslogic_CartSync
+ * @author      Radhu 2Hats <mbukowskik@divante.pl>
+ * @copyright   2022 2Hatslogic.
+ * @license See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="vue" frontName="vue">
+            <module name="Hatslogic_CartSync"/>
+        </route>
+    </router>
+</config>
